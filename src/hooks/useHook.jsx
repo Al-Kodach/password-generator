@@ -22,6 +22,7 @@ function useHooks() {
       
       // regular expression for password
       useEffect(() => {
+        
         if(password.strength === 'high') {
           generatePassword( characters.join('').match(/\S/gi) )
         }

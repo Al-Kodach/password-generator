@@ -13,13 +13,13 @@
 
 .icon-c {
     @apply s:absolute right-2 top-1 s:dark:bg-inherit s:dark:bg-gray-800
-        s:bg-slate-100 s:border-t-gray-100 s:dark:top-2 s:p-0
-       lg:pt-2
+        s:bg-white s:border-t-gray-100 s:dark:top-2 s:p-0
+       lg:pt-2 md:top-4 
 }
 
 .display-pass {
     @apply  s:border-0 divide-cyan-200 min-w-full rounded-md border-4 py-4 pr-2 bg-inherit 
-        dark:border-b-4 indent-2 w-full dark:ring-2 dark:bg-gray-800 dark:border-0 md:p-8 md:text-4xl
+        dark:border-b-4 indent-1 w-full dark:ring-2 dark:bg-gray-800 dark:border-0 md:p-8 md:text-4xl
 }
 
 .pass-icon {
@@ -28,7 +28,7 @@
 }
 
 .p-strength {
-    @apply  py-8 shadow-lg my-2
+    @apply  py-8 shadow-lg my-2 rounded-md
 }
 
 .p-length {
