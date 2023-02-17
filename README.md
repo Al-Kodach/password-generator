@@ -1,23 +1,14 @@
 # password-generator
- 
-<h2>How to use this app<h2>
-<ul>
-<li>Create a fork </li>
-  <li>Clone your fork to your local machine by copying your remote url</li>
-  <ul>
-  <li>Open your terminal, make sure git is install</li> 
-  <li>cd into your projects folder</li>
-  <li>type: git clone <span read-only>https://github.com/your-username/password-generator.git</span></li>
-  </ul>
-  <li>cd into password-generator</li>
-  
-  <ul>
-  #verify if node is install
-  <li>node -v</li>
-   #Install dependency
-   <li>npm install</li>
-   <li>npm run dev</li>
-  </ul>
-  <p>will open on http://localhost:5173/ click to open live-server</p>
-
-</ul>
+ <samp>
+    How to use this app
+    <li>Create a fork </li> 
+    <li>Clone your fork to your local machine, click on <em>code</em> to copy your remote url</li>
+    <li>Open your terminal, make sure git is install</li> 
+    <li><code>cd</code> into your projects folder</li>
+   <li>type <code>git clone https://github.com/your-username/password-generator.git</code></li>
+   <li><code>cd</code>into password-generator</li>
+   <li>verify if node is install<code>node -v</code></li>
+   <li>isntall dependency: <code>npm install</code></li>
+   <li>open live-server: <code>npm run dev</code></li>
+   will open on http://localhost:5173/ click to open live-server
+ </samp>
