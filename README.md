@@ -7,7 +7,7 @@
   <ul>
   <li>Open your terminal, make sure git is install</li> 
   <li>cd into your projects folder</li>
-  <li>type: git clone "https://github.com/your-username/password-generator.git"</li>
+  <li>type: git clone <span read-only>https://github.com/your-username/password-generator.git</span></li>
   </ul>
   <li>cd into password-generator</li>
   
