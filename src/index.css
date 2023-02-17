@@ -5,26 +5,26 @@
 
 
 .icons {
-    @apply w-12 h-12 leading-9 text-5xl text-sky-600 dark:bg-inherit 
-          ring-gray-200 dark:ring-1 dark:ring-slate-500 rounded-md 
-         s:dark:text-gray-100 s:m-0 s:dark:ring-0 s:dark:bg-gray-800 
-        md:text-6xl md:m-1 
+    @apply w-10 h-10 text-4xl text-sky-600 dark:bg-inherit
+          ring-gray-200 dark:ring-1 dark:ring-slate-500 rounded-md
+         s:dark:text-gray-100 s:m-0 s:dark:ring-0 s:dark:bg-gray-800
+        md:text-7xl md:mx-1 md:w-16
 }
 
 .icon-c {
-    @apply s:absolute right-2 top-1 s:dark:bg-inherit s:dark:bg-gray-800
-        s:bg-white s:border-t-gray-100 s:dark:top-2 s:p-0
-       lg:pt-2 md:top-4 
-}
+    @apply flex pt-4 justify-end s:absolute right-2 top-2 s:dark:top-3 s:dark:top-6 s:dark:bg-inherit s:dark:bg-gray-800
+        s:bg-white s:border-t-gray-100 s:p-0 md:top-5
+    }
+
 
 .display-pass {
-    @apply  s:border-0 divide-cyan-200 min-w-full rounded-md border-4 py-4 pr-2 bg-inherit 
+    @apply  s:border-0 divide-cyan-200 min-w-full rounded-md border-4 py-4 pr-2 bg-inherit
         dark:border-b-4 indent-1 w-full dark:ring-2 dark:bg-gray-800 dark:border-0 md:p-8 md:text-4xl
 }
 
 .pass-icon {
-    @apply shadow-sm divide-y-2 dark:divide-y-0 relative 
-    
+    @apply shadow-sm divide-y-2 dark:divide-y-0 relative
+
 }
 
 .p-strength {
@@ -36,5 +36,5 @@
 }
 
 .container {
-    @apply max-w-4xl m-auto 
+    @apply max-w-4xl m-auto
 }
